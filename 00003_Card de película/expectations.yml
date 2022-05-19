@@ -1,0 +1,8 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:.descripcion
+  inspection: DeclaresStyle:flex-grow:1
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:.container
+  inspection: DeclaresStyle:align-items:center

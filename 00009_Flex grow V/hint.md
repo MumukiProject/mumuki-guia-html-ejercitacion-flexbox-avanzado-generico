@@ -1,0 +1,1 @@
+Sí quisíeramos ocupar con un `div` el 80% de la pantalla, y con otro `div` el 20% restante podríamos hacer que el primer `div` tenga `flex-grox: 4` y que el otro tenga `flex-grow: 1`.

@@ -1,0 +1,21 @@
+---
+name: Flexbox avanzado
+locale: es
+type: learning
+beta: false
+teacher_info: ''
+language: html
+id_format: "%05d"
+order:
+- 1
+- 6
+- 7
+- 8
+- 9
+- 2
+- 10
+- 12
+- 3
+- 4
+- 5
+private: false

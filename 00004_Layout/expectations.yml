@@ -1,0 +1,11 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:.aside
+  inspection: DeclaresStyle:flex-grow:1
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:.main
+  inspection: DeclaresStyle:flex-grow:2
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:.principal
+  inspection: DeclaresStyle:flex-grow:1

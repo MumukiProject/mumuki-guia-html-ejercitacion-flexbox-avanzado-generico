@@ -1,0 +1,3 @@
+Para los ejercicios 1 y 2, definí el **body** como contenedor flexible, agregale `flex-wrap: wrap` y dale a cada div el mismo alto fijo y un color de fondo distinto. A menos que el ejercicio lo indique, no uses `width` para definir el ancho, sino `flex-grow`.  
+
+Para los ejercicios 3, 4 y 5, no te preocupes por el contenido y los estilos. Podés sustituir todo por cajas. Lo importante de ellos es poder replicar las disposición de los elementos respetando las consignas.

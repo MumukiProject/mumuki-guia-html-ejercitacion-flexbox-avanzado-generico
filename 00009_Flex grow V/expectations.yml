@@ -1,0 +1,8 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:.ultimo
+  inspection: DeclaresStyle:flex-grow:3
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:.primero
+  inspection: DeclaresStyle:flex-grow:1

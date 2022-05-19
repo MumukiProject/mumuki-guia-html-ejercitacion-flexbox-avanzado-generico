@@ -1,0 +1,8 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:.nombre
+  inspection: DeclaresStyle:flex-grow:1
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:.menu
+  inspection: DeclaresStyle:flex-grow:1

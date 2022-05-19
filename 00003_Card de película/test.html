@@ -1,0 +1,31 @@
+/*<output#*//*#output>*/
+/*<tests#*/it("La imagen tiene un ancho fijo de 250px",() => {
+  document.querySelector('img').should.have.style('width', '250px');
+})
+
+it("La card tiene un ancho de 600px",() => {
+  document.querySelector('.card').should.have.style('width', '600px');
+})
+
+it("La card tiene un alto de 300px",() => {
+  document.querySelector('.card').should.have.style('height', '300px');
+})
+
+it("La imagen tiene un ancho fijo de 250px",() => {
+  document.querySelector('img').should.have.style('width', '250px');
+})
+
+it("La descripción ocupa el alto disponible",() => {
+  document.querySelector('.descripcion').should.have.style('height', '100%');
+})
+
+
+
+
+
+
+
+
+/*#tests>*/
+/*<options#*/output_ignore_scripts: true
+output_ignore_styles: true/*#options>*/

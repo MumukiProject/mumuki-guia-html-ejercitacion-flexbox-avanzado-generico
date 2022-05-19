@@ -1,0 +1,15 @@
+/*<output#*//*#output>*/
+/*<tests#*/it("Hay tres div dentro del container", () => {
+  document.querySelectorAll(".container div").length.should.eql(3);
+})
+
+it("El primer div tiene 250px de ancho",() => {
+  document.querySelectorAll('div')[1].should.have.style('width', '250px')
+})
+
+it("El último div tiene 250px de ancho",() => {
+  document.querySelectorAll('div')[3].should.have.style('width', '250px')
+})
+/*#tests>*/
+/*<options#*/output_ignore_scripts: true
+output_ignore_styles: true/*#options>*/
